@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E5A13A81CB2C9DE00E405F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A13A71CB2C9DE00E405F2 /* main.m */; };
+		4E5A13AB1CB2C9DE00E405F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A13AA1CB2C9DE00E405F2 /* AppDelegate.m */; };
+		4E5A13B41CB2C9DE00E405F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5A13B21CB2C9DE00E405F2 /* Main.storyboard */; };
+		4E5A13B61CB2C9DE00E405F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5A13B51CB2C9DE00E405F2 /* Assets.xcassets */; };
+		4E5A13B91CB2C9DE00E405F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5A13B71CB2C9DE00E405F2 /* LaunchScreen.storyboard */; };
+		4E5A13C21CB2CA3E00E405F2 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A13C11CB2CA3E00E405F2 /* LayoutViewController.m */; };
+		4E5A13D31CB2D11300E405F2 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E5A13D11CB2D11300E405F2 /* LayoutViewController.xib */; };
+		4E5A13D71CB2D70F00E405F2 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A13D51CB2D70F00E405F2 /* TabBarViewController.m */; };
+		4ED2897A1CB2E0F30091872B /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289721CB2E0F30091872B /* AutoLayoutViewController.m */; };
+		4ED2897B1CB2E0F30091872B /* AutoResizingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289741CB2E0F30091872B /* AutoResizingViewController.m */; };
+		4ED2897C1CB2E0F30091872B /* FrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289761CB2E0F30091872B /* FrameViewController.m */; };
+		4ED2897D1CB2E0F30091872B /* StackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289781CB2E0F30091872B /* StackViewViewController.m */; };
+		4ED289801CB2E10C0091872B /* FramePlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2897F1CB2E10C0091872B /* FramePlayground.m */; };
+		4ED289831CB2E1180091872B /* AutoResizingPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289821CB2E1180091872B /* AutoResizingPlayground.m */; };
+		4ED289861CB2E1200091872B /* AutoLayoutPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289851CB2E1200091872B /* AutoLayoutPlayground.m */; };
+		4ED289891CB2E1290091872B /* StackViewPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED289881CB2E1290091872B /* StackViewPlayground.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E5A13A31CB2C9DE00E405F2 /* iOS Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5A13A71CB2C9DE00E405F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E5A13A91CB2C9DE00E405F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E5A13AA1CB2C9DE00E405F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E5A13B31CB2C9DE00E405F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5A13B51CB2C9DE00E405F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5A13B81CB2C9DE00E405F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E5A13BA1CB2C9DE00E405F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5A13C01CB2CA3E00E405F2 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		4E5A13C11CB2CA3E00E405F2 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		4E5A13D11CB2D11300E405F2 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
+		4E5A13D41CB2D70F00E405F2 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		4E5A13D51CB2D70F00E405F2 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		4ED289711CB2E0F30091872B /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		4ED289721CB2E0F30091872B /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		4ED289731CB2E0F30091872B /* AutoResizingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResizingViewController.h; sourceTree = "<group>"; };
+		4ED289741CB2E0F30091872B /* AutoResizingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResizingViewController.m; sourceTree = "<group>"; };
+		4ED289751CB2E0F30091872B /* FrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameViewController.h; sourceTree = "<group>"; };
+		4ED289761CB2E0F30091872B /* FrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameViewController.m; sourceTree = "<group>"; };
+		4ED289771CB2E0F30091872B /* StackViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewViewController.h; sourceTree = "<group>"; };
+		4ED289781CB2E0F30091872B /* StackViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewViewController.m; sourceTree = "<group>"; };
+		4ED2897E1CB2E10C0091872B /* FramePlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramePlayground.h; sourceTree = "<group>"; };
+		4ED2897F1CB2E10C0091872B /* FramePlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramePlayground.m; sourceTree = "<group>"; };
+		4ED289811CB2E1180091872B /* AutoResizingPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResizingPlayground.h; sourceTree = "<group>"; };
+		4ED289821CB2E1180091872B /* AutoResizingPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResizingPlayground.m; sourceTree = "<group>"; };
+		4ED289841CB2E1200091872B /* AutoLayoutPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutPlayground.h; sourceTree = "<group>"; };
+		4ED289851CB2E1200091872B /* AutoLayoutPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPlayground.m; sourceTree = "<group>"; };
+		4ED289871CB2E1290091872B /* StackViewPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewPlayground.h; sourceTree = "<group>"; };
+		4ED289881CB2E1290091872B /* StackViewPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewPlayground.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5A13A01CB2C9DE00E405F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5A139A1CB2C9DE00E405F2 = {
+			isa = PBXGroup;
+			children = (
+				4E5A13A51CB2C9DE00E405F2 /* iOS Layout */,
+				4E5A13A41CB2C9DE00E405F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5A13A41CB2C9DE00E405F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5A13A31CB2C9DE00E405F2 /* iOS Layout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E5A13A51CB2C9DE00E405F2 /* iOS Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4ED289701CB2E0F30091872B /* controllers */,
+				4ED289791CB2E0F30091872B /* playgrounds */,
+				4E5A13A91CB2C9DE00E405F2 /* AppDelegate.h */,
+				4E5A13AA1CB2C9DE00E405F2 /* AppDelegate.m */,
+				4E5A13D41CB2D70F00E405F2 /* TabBarViewController.h */,
+				4E5A13D51CB2D70F00E405F2 /* TabBarViewController.m */,
+				4E5A13C01CB2CA3E00E405F2 /* LayoutViewController.h */,
+				4E5A13C11CB2CA3E00E405F2 /* LayoutViewController.m */,
+				4E5A13D11CB2D11300E405F2 /* LayoutViewController.xib */,
+				4E5A13B21CB2C9DE00E405F2 /* Main.storyboard */,
+				4E5A13B51CB2C9DE00E405F2 /* Assets.xcassets */,
+				4E5A13B71CB2C9DE00E405F2 /* LaunchScreen.storyboard */,
+				4E5A13BA1CB2C9DE00E405F2 /* Info.plist */,
+				4E5A13A61CB2C9DE00E405F2 /* Supporting Files */,
+			);
+			path = "iOS Layout";
+			sourceTree = "<group>";
+		};
+		4E5A13A61CB2C9DE00E405F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E5A13A71CB2C9DE00E405F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ED289701CB2E0F30091872B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ED289751CB2E0F30091872B /* FrameViewController.h */,
+				4ED289761CB2E0F30091872B /* FrameViewController.m */,
+				4ED289731CB2E0F30091872B /* AutoResizingViewController.h */,
+				4ED289741CB2E0F30091872B /* AutoResizingViewController.m */,
+				4ED289711CB2E0F30091872B /* AutoLayoutViewController.h */,
+				4ED289721CB2E0F30091872B /* AutoLayoutViewController.m */,
+				4ED289771CB2E0F30091872B /* StackViewViewController.h */,
+				4ED289781CB2E0F30091872B /* StackViewViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4ED289791CB2E0F30091872B /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2897E1CB2E10C0091872B /* FramePlayground.h */,
+				4ED2897F1CB2E10C0091872B /* FramePlayground.m */,
+				4ED289811CB2E1180091872B /* AutoResizingPlayground.h */,
+				4ED289821CB2E1180091872B /* AutoResizingPlayground.m */,
+				4ED289841CB2E1200091872B /* AutoLayoutPlayground.h */,
+				4ED289851CB2E1200091872B /* AutoLayoutPlayground.m */,
+				4ED289871CB2E1290091872B /* StackViewPlayground.h */,
+				4ED289881CB2E1290091872B /* StackViewPlayground.m */,
+			);
+			path = playgrounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5A13A21CB2C9DE00E405F2 /* iOS Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5A13BD1CB2C9DE00E405F2 /* Build configuration list for PBXNativeTarget "iOS Layout" */;
+			buildPhases = (
+				4E5A139F1CB2C9DE00E405F2 /* Sources */,
+				4E5A13A01CB2C9DE00E405F2 /* Frameworks */,
+				4E5A13A11CB2C9DE00E405F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Layout";
+			productName = "iOS Layout";
+			productReference = 4E5A13A31CB2C9DE00E405F2 /* iOS Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5A139B1CB2C9DE00E405F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Initium Media";
+				TargetAttributes = {
+					4E5A13A21CB2C9DE00E405F2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4E5A139E1CB2C9DE00E405F2 /* Build configuration list for PBXProject "iOS Layout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5A139A1CB2C9DE00E405F2;
+			productRefGroup = 4E5A13A41CB2C9DE00E405F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5A13A21CB2C9DE00E405F2 /* iOS Layout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5A13A11CB2C9DE00E405F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5A13D31CB2D11300E405F2 /* LayoutViewController.xib in Resources */,
+				4E5A13B91CB2C9DE00E405F2 /* LaunchScreen.storyboard in Resources */,
+				4E5A13B61CB2C9DE00E405F2 /* Assets.xcassets in Resources */,
+				4E5A13B41CB2C9DE00E405F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5A139F1CB2C9DE00E405F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED289831CB2E1180091872B /* AutoResizingPlayground.m in Sources */,
+				4ED2897B1CB2E0F30091872B /* AutoResizingViewController.m in Sources */,
+				4ED289891CB2E1290091872B /* StackViewPlayground.m in Sources */,
+				4E5A13AB1CB2C9DE00E405F2 /* AppDelegate.m in Sources */,
+				4E5A13A81CB2C9DE00E405F2 /* main.m in Sources */,
+				4ED289801CB2E10C0091872B /* FramePlayground.m in Sources */,
+				4ED2897C1CB2E0F30091872B /* FrameViewController.m in Sources */,
+				4ED2897D1CB2E0F30091872B /* StackViewViewController.m in Sources */,
+				4ED289861CB2E1200091872B /* AutoLayoutPlayground.m in Sources */,
+				4ED2897A1CB2E0F30091872B /* AutoLayoutViewController.m in Sources */,
+				4E5A13D71CB2D70F00E405F2 /* TabBarViewController.m in Sources */,
+				4E5A13C21CB2CA3E00E405F2 /* LayoutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E5A13B21CB2C9DE00E405F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5A13B31CB2C9DE00E405F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E5A13B71CB2C9DE00E405F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5A13B81CB2C9DE00E405F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E5A13BB1CB2C9DE00E405F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E5A13BC1CB2C9DE00E405F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E5A13BE1CB2C9DE00E405F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cat.iOS-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E5A13BF1CB2C9DE00E405F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cat.iOS-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5A139E1CB2C9DE00E405F2 /* Build configuration list for PBXProject "iOS Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5A13BB1CB2C9DE00E405F2 /* Debug */,
+				4E5A13BC1CB2C9DE00E405F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5A13BD1CB2C9DE00E405F2 /* Build configuration list for PBXNativeTarget "iOS Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5A13BE1CB2C9DE00E405F2 /* Debug */,
+				4E5A13BF1CB2C9DE00E405F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5A139B1CB2C9DE00E405F2 /* Project object */;
+}
